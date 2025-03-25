@@ -49,7 +49,7 @@ def get_data():
         return None
     
 
-
+## Method 4 is here
 def save_to_db(data):
     query = f"INSERT INTO mytable (column1, column2) VALUES ('{data}', 'Another Value')"
     connection = pymysql.connect(**db_config)
